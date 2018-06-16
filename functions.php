@@ -28,3 +28,5 @@ function oceanwp_child_enqueue_parent_style() {
 	
 }
 add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
+
+include_once dirname( __FILE__ ) . '/lib/class-tgm-plugin-activation.php';
